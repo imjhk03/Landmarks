@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 55;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -12,6 +12,7 @@
 		C1E2682F2674FBC6007AAF0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1E2682E2674FBC6007AAF0A /* Assets.xcassets */; };
 		C1E268322674FBC6007AAF0A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1E268312674FBC6007AAF0A /* Preview Assets.xcassets */; };
 		C1E268392675021E007AAF0A /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E268382675021E007AAF0A /* CircleImage.swift */; };
+		C1E2683B267502D3007AAF0A /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E2683A267502D3007AAF0A /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		C1E2682E2674FBC6007AAF0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C1E268312674FBC6007AAF0A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C1E268382675021E007AAF0A /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		C1E2683A267502D3007AAF0A /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,9 +57,10 @@
 			children = (
 				C1E2682A2674FBC5007AAF0A /* LandmarksApp.swift */,
 				C1E2682C2674FBC5007AAF0A /* ContentView.swift */,
+				C1E268382675021E007AAF0A /* CircleImage.swift */,
+				C1E2683A267502D3007AAF0A /* MapView.swift */,
 				C1E2682E2674FBC6007AAF0A /* Assets.xcassets */,
 				C1E268302674FBC6007AAF0A /* Preview Content */,
-				C1E268382675021E007AAF0A /* CircleImage.swift */,
 			);
 			path = Landmarks;
 			sourceTree = "<group>";
@@ -106,7 +109,7 @@
 				};
 			};
 			buildConfigurationList = C1E268222674FBC5007AAF0A /* Build configuration list for PBXProject "Landmarks" */;
-			compatibilityVersion = "Xcode 13.0";
+			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C1E2682D2674FBC5007AAF0A /* ContentView.swift in Sources */,
+				C1E2683B267502D3007AAF0A /* MapView.swift in Sources */,
 				C1E2682B2674FBC5007AAF0A /* LandmarksApp.swift in Sources */,
 				C1E268392675021E007AAF0A /* CircleImage.swift in Sources */,
 			);
@@ -200,7 +204,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -255,7 +259,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
